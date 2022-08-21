@@ -23,8 +23,8 @@
     },
 	"web_accessible_resources": [
 		{
-	"resources" : ["*.png","utility.js"],
-	"matches": ["assets/*"]
+	"resources" : ["*.png"],
+	"matches": ["<all_urls>"]
 		}
 	 ]
     ,
