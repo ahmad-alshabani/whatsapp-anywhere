@@ -16,12 +16,12 @@
 	"whatsappLinkInContextMenu.js",
 	    "type": "module"
     },
-	"web_accessible_resources": [{
-	"resources" : "*.png",
-	"matches": "assets/*" },
-	{
-	"resources" : "utility.js",
-	"matches": "assets/*" } ]
+	"web_accessible_resources": [
+		{
+	"resources" : ["*.png","utility.js"],
+	"matches": "assets/*"
+		}
+	 ]
     ,
     "icons": {
         "16": "icons/logo_16x16.png",
