@@ -17,7 +17,7 @@
 	    "type": "module"
     },
 	"web_accessible_resources": [
-      "assets" : "whatsapp_logo.png"
+      "assets" : "utility.js"
     ],
     "icons": {
         "16": "icons/logo_16x16.png",
