@@ -21,10 +21,7 @@
         "32": "icons/logo_32x32.png",
         "192": "icons/logo_192x192.png"
     },
-    "web_accessible_resources": [
-      "assets/*"
-    ],
-    "options_ui": {
+        "options_ui": {
        "page": "options.html",
        "open_in_tab": true
     },
