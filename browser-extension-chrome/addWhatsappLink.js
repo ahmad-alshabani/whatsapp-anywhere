@@ -11,9 +11,9 @@ for (elem of all) {
 	_utility.getWhatsappMessageUrl(link, function(whatsappMessageUrl){
 	  //Add a whatsapp icon with link to whatsapp message
 	  elem.innerHTML = '<a href="'+whatsappMessageUrl+'" target="_blank" style="margin: 0 auto;">'+'<img src="'+logoImg+'" style="padding-right:12px;width:auto;height:16px;" /></a>'+elem.innerHTML;
-	  //let newWhatsappBtn = document.createElement('span')
-	  //newWhatsappBtn.innerHTML = '<a href="'+whatsappLink+'" target="_blank">'+'<img src="'+logoImg+'" width="16px" height="16px" /></a>'
-	  //elem.insertAdjacentHTML('beforebegin', newWhatsappBtn)
+	  let newWhatsappBtn = document.createElement('span')
+	  newWhatsappBtn.innerHTML = '<a href="'+whatsappLink+'" target="_blank">'+'<img src="'+logoImg+'" width="16px" height="16px" /></a>'
+	  elem.insertAdjacentHTML('beforebegin', newWhatsappBtn)
 	});
     }
 }
