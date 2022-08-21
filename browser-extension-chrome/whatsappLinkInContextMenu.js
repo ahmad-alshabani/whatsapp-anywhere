@@ -12,6 +12,7 @@ function getword(info,tab) {
 }
 
 chrome.contextMenus.create({
+	id: "some-command",
   title: "Whatsapp: %s", 
   contexts:["selection"], 
   onclick: getword
