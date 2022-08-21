@@ -15,5 +15,6 @@ chrome.contextMenus.create({
 	id: "some-command",
   title: "Whatsapp: %s", 
   contexts:["selection"], 
-  onclick: getword
+  chrome.contextMenus.onClicked(){
+	getword}
 });
