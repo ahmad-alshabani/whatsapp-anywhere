@@ -19,7 +19,7 @@
 	"web_accessible_resources": [
 		{
 	"resources" : ["*.png","utility.js"],
-	"matches": "assets/*"
+	"matches": ["assets/*"]
 		}
 	 ]
     ,
