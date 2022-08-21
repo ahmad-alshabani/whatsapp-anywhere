@@ -23,7 +23,7 @@
     },
 	"web_accessible_resources": [
 		{
-	"resources" : ["*.png"],
+	"resources" : ["assets/whatsapp_logo.png"],
 	"matches": ["<all_urls>"]
 		}
 	 ]
