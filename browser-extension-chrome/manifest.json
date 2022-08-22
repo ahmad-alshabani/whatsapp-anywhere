@@ -2,10 +2,12 @@
     "name": "WhatsappAnywhere",
     "version": "1.0.0",
     "description": "Turn any phone number into clickable whatsapp link",
-    "permissions": [
-      "contextMenus",
-      "storage"
-     ],
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "geolocation",
+    "notifications"
+  ],
     "content_scripts": [{
         "matches": ["*://*/*"],
         "run_at": "document_idle",
