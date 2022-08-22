@@ -11,12 +11,13 @@ function getword(info,tab) {
   })
 }
 
-chrome.contextMenus.create({
+chrome.runtime.onInstalled.addListener(() => {chrome.contextMenus.create({
 	id: "whatsparent",
   title: "Whatsapp: %s", 
   contexts:["selection"], 
 });
-
+});
+					      
 chrome.contextMenus.onClicked.addListener(function(info, tab){
 	if(tab){
 		if(info.menuItemId === "whatsparent"){
