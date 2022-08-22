@@ -4,9 +4,13 @@
 <head>
   <title>Whatsapp Anywhere Options</title>
   <style>
-    body {
-      padding: 10px;
-    }
+      body {
+          padding: 10px;
+          margin-left: 25%;
+          margin-right: 25%;
+          margin-top: 10px;
+     
+      }
 
     input {
       width: 55px
@@ -32,14 +36,17 @@
 </head>
 
 <body>
-  <div class="option">
-    <b>Default Country Code</b><br/>
-    <input id="default-country-code" type="number" name="default-country-code" min="0" max="999" />
+  
+  <div class="option" >
+    <H3>Default Country Code</H3>
+    +<input id="default-country-code" type="number" name="default-country-code" min="0" max="999" />
+      <br />Hint: <i>Each country has a unique code.</i><br /><i>Eg. (USA) 1, (UK) 44, (Kuwait) 965, (KSA) 966, (Jordan) 962, (Egypt) 50, etc.</i>
   </div>
   <br/>
   <div class="option" title="Will only close the ad after the 'Skip ad' button has appeared (usually after 5 seconds).">
-    <b>Default Message</b><br/>
-    <textarea id="default-message" name=""default-message"" rows="5" cols="70"></textarea>
+      <b>Default Message</b><br />
+      <textarea id="default-message" name="" default-message"" rows="5" cols="70"></textarea>
+      <br />Hint: <i>Enter the message you would like to send to the number.</i>
   </div>
   <span id="status">&nbsp;</span>
   <button id="save">Save</button>
