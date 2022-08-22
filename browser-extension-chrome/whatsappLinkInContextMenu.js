@@ -19,5 +19,5 @@ chrome.runtime.onInstalled.addListener(() => {chrome.contextMenus.create({
 });
 					      
 chrome.contextMenus.onClicked.addListener(function(){
-getword(info,tab),
+getword(info,tab)
 });
