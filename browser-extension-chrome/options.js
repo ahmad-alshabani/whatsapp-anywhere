@@ -14,7 +14,7 @@ const saveOptions = function(){
     });
 };
 const restoreOptions = function(){
-    chrome.storage.sync.get({'defaultCountryCode': 91, 'defaultMessage': ''}, function(configs){
+    chrome.storage.sync.get({'defaultCountryCode': 965, 'defaultMessage': ''}, function(configs){
         document.getElementById('default-country-code').value = configs.defaultCountryCode;
         document.getElementById('default-message').value = configs.defaultMessage;
     });
