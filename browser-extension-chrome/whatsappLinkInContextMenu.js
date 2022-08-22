@@ -21,6 +21,6 @@ chrome.runtime.onInstalled.addListener(() => {chrome.contextMenus.create({
 chrome.contextMenus.onClicked.addListener(function(info, tab){
 	if(tab){
 		if(info.menuItemId === "whatsparent"){
-			getword(info,tab)}
+			getword}
 	}
 });
