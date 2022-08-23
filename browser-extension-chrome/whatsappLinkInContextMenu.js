@@ -41,9 +41,8 @@ function getword(info, tab) {
   title: "Whatsapp: %s", 
   contexts:["selection"], 
 	});
-chrome.contextMenus.onClicked.addListener(onClickHandler);
 });
-
+chrome.contextMenus.onClicked.addListener(onClickHandler);
 
 function onClickHandler(info, tab) {
 	if (info.menuItemId === "whatsparent") {
